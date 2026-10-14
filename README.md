@@ -22,7 +22,7 @@ Requires [uv](https://docs.astral.sh/uv/) (Python 3.13).
 
 ```bash
 uv sync
-uv run jupyter lab lab3.ipynb   # or open lab3.ipynb in VS Code and select the .venv kernel
+# open lab3.ipynb in VS Code and select the .venv kernel, or: uv run --with jupyter jupyter lab lab3.ipynb
 ```
 
 Then run **Kernel -> Restart & Run All**.
